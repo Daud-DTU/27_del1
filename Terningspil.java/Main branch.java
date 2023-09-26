@@ -1,3 +1,3 @@
-public class Main branch {
+public class Mainbranch {
     
 }
