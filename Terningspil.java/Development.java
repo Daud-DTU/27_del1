@@ -27,7 +27,7 @@ public class Development {
             int player1Roll2 = random.nextInt(6) + 1;
             int player1TurnScore = player1Roll1 + player1Roll2;
             player1Score += player1TurnScore;
-            System.out.println("Du slog en " + player1Roll1 +" er" +  " og en " + player1Roll2 +" er" +  " i alt " + player1TurnScore + " point.");
+            System.out.println("Du slog en " + player1Roll1  +  " og en " + player1Roll2  +  " i alt " + player1TurnScore + " point.");
             System.out.println("Din score er " + player1Score + " point.");
 
             if (player1Score >= WINNING_SCORE) {
@@ -40,7 +40,7 @@ public class Development {
             int player2Roll2 = random.nextInt(6) + 1;
             int player2TurnScore = player2Roll1 + player2Roll2;
             player2Score += player2TurnScore;
-            System.out.println("Du slog " + player2Roll1 +" er" +  " og en " + player2Roll2 +" er" +  " i alt " + player2TurnScore + " point.");
+            System.out.println("Du slog " + player2Roll1 +   " og en " + player2Roll2  +  " i alt " + player2TurnScore + " point.");
             System.out.println("Din score er " + player2Score + " point.");
 
             if (player2Score >= WINNING_SCORE) {
