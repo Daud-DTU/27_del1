@@ -28,8 +28,8 @@ public class DevelopmentTerningespil {
         int turnScore = roll1 + roll2;
         player.addScore(turnScore);
 
-        System.out.println("du slog " + roll1 + " og " + roll2 + " i alt " + turnScore + " points.");
-        System.out.println("din score er " + player.getScore() + " points.");
+        System.out.println("du slog " + roll1 + " og " + roll2 + " i alt " + turnScore + " point.");
+        System.out.println("din score er " + player.getScore() + " point.");
     }
 
     private static void announceWinner(DevelopmentPlayer player) {
