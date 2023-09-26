@@ -1,6 +1,3 @@
-public class DevelopmentScanner {
-    
-}
 import java.util.Scanner;
 
 public class Main {
@@ -20,4 +17,3 @@ public class Main {
         DiceGame.playGame(player1, player2);
     }
 }
-
