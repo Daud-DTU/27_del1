@@ -22,17 +22,17 @@ public class DevelopmentTerningespil {
     }
 
     private static void playTurn(DevelopmentPlayer player, Random random) {
-        System.out.println(player.getName() + "'s turn.");
+        System.out.println(player.getName() + "'s tur.");
         int roll1 = random.nextInt(6) + 1;
         int roll2 = random.nextInt(6) + 1;
         int turnScore = roll1 + roll2;
         player.addScore(turnScore);
 
-        System.out.println("You rolled " + roll1 + " and " + roll2 + " for a total of " + turnScore + " points.");
-        System.out.println("Your score is " + player.getScore() + " points.");
+        System.out.println("du slog " + roll1 + " og " + roll2 + " i alt " + turnScore + " points.");
+        System.out.println("din score er " + player.getScore() + " points.");
     }
 
     private static void announceWinner(DevelopmentPlayer player) {
-        System.out.println(player.getName() + " has won!");
+        System.out.println(player.getName() + " Har vundet!");
     }
 }
