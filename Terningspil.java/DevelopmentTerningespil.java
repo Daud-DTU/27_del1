@@ -3,7 +3,7 @@ import java.util.Random;
 public class DevelopmentTerningespil {
     private static final int WINNING_SCORE = 40;
 
-    public static void playGame(Player player1, Player player2) {
+    public static void playGame(DevelopmentPlayer player1, DevelopmentPlayer player2) {
         Random random = new Random();
 
         while (true) {
@@ -21,7 +21,7 @@ public class DevelopmentTerningespil {
         }
     }
 
-    private static void playTurn(Player player, Random random) {
+    private static void playTurn(DevelopmentPlayer player, Random random) {
         System.out.println(player.getName() + "'s turn.");
         int roll1 = random.nextInt(6) + 1;
         int roll2 = random.nextInt(6) + 1;
@@ -32,7 +32,7 @@ public class DevelopmentTerningespil {
         System.out.println("Your score is " + player.getScore() + " points.");
     }
 
-    private static void announceWinner(Player player) {
+    private static void announceWinner(DevelopmentPlayer player) {
         System.out.println(player.getName() + " has won!");
     }
 }
